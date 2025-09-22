@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "name": "Mid-Season Sale",
+    "discount": 30,
+    "callout": "Up to 30% off",
+    "region": "EU"
+  },
+  {
+    "id": 102,
+    "name": "Black Friday",
+    "discount": 50,
+    "callout": "Half Price Deals",
+    "region": "US"
+  },
+  {
+    "id": 103,
+    "name": "Summer Special",
+    "discount": 20,
+    "callout": "Summer Vibes -20%",
+    "region": "EU"
+  }
+]
