@@ -1,0 +1,95 @@
+:root {
+  --color-primary: #a6472d;
+  --color-secondary: #d5461e;
+  --color-text: white;
+  --color-overlay:rgba(0, 0, 0, 0.288);
+
+  --font-size-title: 2rem;
+  --font-size-text: 1.1rem;
+
+  --spacing-small: 16px;
+  --spacing-medium: 24px;
+  --spacing-large: 40px;
+
+  --radius-small: 4px;
+  
+  --font-weight-semibold: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/malicki-m-beser.jpg")
+      center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-overlay);
+    z-index: 1;
+  }
+
+
+  .hero-text {
+    position: relative; 
+    z-index: 2;
+    color: var(--color-text);
+    text-align: center;
+    max-width: 500px;
+    padding: var(--spacing-large);
+  }
+  .hero-text h1 {
+    font-size: var(--font-size-title);
+    margin-bottom: var(--spacing-small);
+  }
+
+  .hero-text p {
+    font-size: var(--font-size-text);
+    margin-bottom: var(--spacing-medium);
+  }
+
+  .hero-text button {
+    margin: var(--spacing-small);
+    padding: var(--spacing-small) var(--spacing-medium);
+    border: none;
+    border-radius: var(--radius-small);
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-semibold);
+    min-width: 200px;
+    cursor: pointer;
+  }
+
+  .hero-text button:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+  @media (max-width: 767px) {
+    .hero {
+      align-items: flex-end;
+      padding-bottom: var(--spacing-large);
+      
+    }
+  }
