@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #a6472d;
+  --color-secondary: #d5461e;
+  --color-text: #fff;
+  --color-text-secondary: #ffe5de;
+  --color-overlay: rgba(0, 0, 0, 0.288);
+
+  --spacing-small: 1rem;  
+  --spacing-medium: 1.5rem; 
+  --spacing-large: 2.5rem; 
+  --card-padding: var(--spacing-small);
+  --card-margin: var(--spacing-small);
+  --card-gap: 0.5rem;
+
+
+  --radius-small: 0.25rem; 
+  --card-radius: 0.75rem; 
+
+
+  --card-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+
+
+  --font-size-h1: 2.25rem;
+  --font-size-h2: 1.875rem;
+  --font-size-card-h2: 1.5rem;
+  --font-size-card-h3: 1.125rem;
+  --font-size-title: 2rem;
+  --font-size-text: 1.1rem;
+
+  --font-weight-semibold: 600;
+}

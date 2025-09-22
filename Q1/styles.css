@@ -1,21 +1,3 @@
-:root {
-  --color-primary: #a6472d;
-  --color-secondary: #d5461e;
-  --color-text: white;
-  --color-overlay:rgba(0, 0, 0, 0.288);
-
-  --font-size-title: 2rem;
-  --font-size-text: 1.1rem;
-
-  --spacing-small: 16px;
-  --spacing-medium: 24px;
-  --spacing-large: 40px;
-
-  --radius-small: 4px;
-  
-  --font-weight-semibold: 600;
-}
-
 * {
     margin: 0;
     padding: 0;
