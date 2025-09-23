@@ -1,7 +1,14 @@
 # Tech Challenge
-Work in progress 🚧
+Hi there! This is Carol and this is my take on the technical challenge 😄
 
-These are my answers for the Question 5. I've also added some notes about the challenge and credits for the image used for the Question 1 at the end of this README ✨
+This project covers all questions from 1 to 5.  
+- Questions 1–4 each have their own folder and are independent from each other. I made the name shorter (ex. Question 1 -> Q1).  
+- The only shared code between exercises is some style variables.  
+- The project is built with **pure JS, HTML, and CSS**, so it can be previewed easily in a browser!  
+- Question 5 is answered directly in this README.
+
+
+I've also added some notes about the challenge and credits for the image used for the Question 1 at the end of this README ✨
 
 Thanks for reading! 🌸
 
@@ -19,7 +26,8 @@ From my point of view, the best "solution" is not a solution but a preparation: 
 
 
 ## Notes
-
+- **Styles:** For questions 2, 3 and 4 I focused on functionality over design. Some elements (like the overlay) aren’t styled, but I tried to keep things reasonably consistent.
+  
 - **Security:** This project loads a local JSON file for promotions. . All data is controlled and there’s no user input, so security risks like XSS do not apply. I am aware that using `innerHTML` can be dangerous if handling untrusted data. Future external data would need proper security considerations.
 
 - **Testing:** I included a basic test (for Question 4) using Mocha + Chai via CDN. Testing wasn’t required, but I wanted to show a sample of how I would test. 
