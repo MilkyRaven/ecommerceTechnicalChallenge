@@ -1,0 +1,20 @@
+{
+  "IT": {
+    "promoTitle": "Mid-Season Sale",
+    "promoMechanic": "Up to 30% off",
+    "link": "/it/sale",
+    "disclaimer": "The offer is valid only on a selection of items while stocks last."
+  },
+  "CH": {
+    "promoTitle": "Special Offers",
+    "promoMechanic": "20% off on selected items",
+    "link": "/ch/promotions",
+    "disclaimer": "The offer cannot be combined with other ongoing promotions."
+  },
+  "GB": {
+    "promoTitle": "Summer Deals",
+    "promoMechanic": "Buy 2 get 1 free",
+    "link": "/gb/summer",
+    "disclaimer": "The promotion is valid only for products labeled as 'Summer Deals'."
+  }
+}
