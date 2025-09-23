@@ -20,7 +20,9 @@ From my point of view, the best "solution" is not a solution but a preparation: 
 
 ## Notes
 
-- **Security:** This project loads a local JSON file for promotions. . All data is controlled and there’s no user input, so security risks like XSS do not apply. I am aware that using `innerHTML` can be dangerous if handling untrusted data. Future external data would need proper security considerations.  
+- **Security:** This project loads a local JSON file for promotions. . All data is controlled and there’s no user input, so security risks like XSS do not apply. I am aware that using `innerHTML` can be dangerous if handling untrusted data. Future external data would need proper security considerations.
+
+- **Testing:** I included a basic test (for Question 4) using Mocha + Chai via CDN. Testing wasn’t required, but I wanted to show a sample of how I would test. 
 
 
 ## Credits
