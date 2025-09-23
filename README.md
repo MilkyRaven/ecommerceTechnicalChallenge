@@ -1,7 +1,7 @@
 # Tech Challenge
 Work in progress 🚧
 
-These are my answers for the Question 5. I've also added credits for the image used for the Question 1 at the end of this README ✨
+These are my answers for the Question 5. I've also added some notes about the challenge and credits for the image used for the Question 1 at the end of this README ✨
 
 Thanks for reading! 🌸
 
@@ -18,6 +18,9 @@ Since keeping the old data is not an option and I must update it with the reques
 From my point of view, the best "solution" is not a solution but a preparation: to build a system that allow us to update configurations without touching core logic, avoiding in this way to not only break SOLID principles but also to be able to adapt fast to unavoidable changes.
 
 
+## Notes
+
+- **Security:** This project loads a local JSON file for promotions. . All data is controlled and there’s no user input, so security risks like XSS do not apply. I am aware that using `innerHTML` can be dangerous if handling untrusted data. Future external data would need proper security considerations.  
 
 
 ## Credits
